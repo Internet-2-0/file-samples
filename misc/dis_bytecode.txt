@@ -1,0 +1,505 @@
+  0           0 RESUME                   0
+
+  2           2 LOAD_CONST               0 (False)
+              4 STORE_NAME               0 (foo)
+
+  3           6 LOAD_NAME                0 (foo)
+              8 POP_JUMP_FORWARD_IF_FALSE     5 (to 20)
+
+  4          10 LOAD_CONST               1 (1)
+             12 LOAD_CONST               2 (0)
+             14 BINARY_OP               11 (/)
+             18 STORE_NAME               1 (bar)
+
+  5     >>   20 LOAD_NAME                2 (enumerate)
+             22 STORE_NAME               3 (Q)
+
+  6          24 LOAD_CONST               3 (b'UFhXJQ==')
+             26 STORE_NAME               4 (M)
+
+  7          28 LOAD_CONST               4 ('\n')
+             30 STORE_NAME               5 (L)
+
+  8          32 LOAD_NAME                6 (open)
+             34 STORE_NAME               7 (K)
+
+  9          36 LOAD_NAME                8 (ord)
+             38 STORE_NAME               9 (J)
+
+ 10          40 LOAD_NAME               10 (chr)
+             42 STORE_NAME              11 (I)
+
+ 11          44 LOAD_CONST               5 (b'VFNTLmg=')
+             46 STORE_NAME              12 (H)
+
+ 12          48 LOAD_NAME               13 (len)
+             50 STORE_NAME              14 (G)
+
+ 13          52 LOAD_CONST               6 (b'QURS')
+             54 STORE_NAME              15 (F)
+
+ 14          56 LOAD_NAME               16 (print)
+             58 STORE_NAME              17 (B)
+
+ 15          60 LOAD_CONST               2 (0)
+             62 LOAD_CONST               7 (None)
+             64 IMPORT_NAME             18 (base64)
+             66 STORE_NAME              19 (R)
+
+ 16          68 LOAD_CONST               8 (<code object A at 0x5ae5a672ec60, file "string", line 16>)
+             70 MAKE_FUNCTION            0
+             72 STORE_NAME              20 (A)
+
+ 17          74 LOAD_CONST               2 (0)
+             76 LOAD_CONST               7 (None)
+             78 IMPORT_NAME             21 (requests)
+             80 STORE_NAME              22 (N)
+             82 LOAD_CONST               2 (0)
+             84 LOAD_CONST               7 (None)
+             86 IMPORT_NAME             23 (certifi)
+             88 STORE_NAME              24 (S)
+
+ 18          90 LOAD_CONST               2 (0)
+             92 LOAD_CONST               9 (('colored',))
+             94 IMPORT_NAME             25 (termcolor)
+             96 IMPORT_FROM             26 (colored)
+             98 STORE_NAME              27 (C)
+            100 POP_TOP
+
+ 19         102 LOAD_CONST               2 (0)
+            104 LOAD_CONST              10 (('urlparse', 'parse_qs', 'urlencode', 'urlunparse'))
+            106 IMPORT_NAME             28 (urllib.parse)
+            108 IMPORT_FROM             29 (urlparse)
+            110 STORE_NAME              30 (T)
+            112 IMPORT_FROM             31 (parse_qs)
+            114 STORE_NAME              32 (U)
+            116 IMPORT_FROM             33 (urlencode)
+            118 STORE_NAME              34 (V)
+            120 IMPORT_FROM             35 (urlunparse)
+            122 STORE_NAME              36 (W)
+            124 POP_TOP
+
+ 20         126 LOAD_CONST               2 (0)
+            128 LOAD_CONST              11 (('ThreadPoolExecutor', 'as_completed'))
+            130 IMPORT_NAME             37 (concurrent.futures)
+            132 IMPORT_FROM             38 (ThreadPoolExecutor)
+            134 STORE_NAME              39 (X)
+            136 IMPORT_FROM             40 (as_completed)
+            138 STORE_NAME              41 (Y)
+            140 POP_TOP
+
+ 21         142 LOAD_CONST               2 (0)
+            144 LOAD_CONST               7 (None)
+            146 IMPORT_NAME             42 (argparse)
+            148 STORE_NAME              43 (Z)
+            150 LOAD_CONST               2 (0)
+            152 LOAD_CONST               7 (None)
+            154 IMPORT_NAME             44 (json)
+            156 STORE_NAME              44 (json)
+
+ 22         158 LOAD_CONST               2 (0)
+            160 LOAD_CONST              12 (('datetime',))
+            162 IMPORT_NAME             45 (datetime)
+            164 IMPORT_FROM             45 (datetime)
+            166 STORE_NAME              46 (O)
+            168 POP_TOP
+
+ 23         170 LOAD_CONST               2 (0)
+            172 LOAD_CONST              13 (('UserAgent',))
+            174 IMPORT_NAME             47 (fake_useragent)
+            176 IMPORT_FROM             48 (UserAgent)
+            178 STORE_NAME              49 (a)
+            180 POP_TOP
+
+ 24         182 LOAD_CONST               2 (0)
+            184 LOAD_CONST               7 (None)
+            186 IMPORT_NAME             50 (pyfiglet)
+            188 STORE_NAME              51 (b)
+
+ 25         190 LOAD_CONST               2 (0)
+            192 LOAD_CONST              14 (('Value', 'Lock'))
+            194 IMPORT_NAME             52 (multiprocessing)
+            196 IMPORT_FROM             53 (Value)
+            198 STORE_NAME              54 (P)
+            200 IMPORT_FROM             55 (Lock)
+            202 STORE_NAME              55 (Lock)
+            204 POP_TOP
+
+ 26         206 LOAD_CONST              15 (<code object c at 0x5ae5a679ca20, file "string", line 26>)
+            208 MAKE_FUNCTION            0
+            210 STORE_NAME              56 (c)
+
+ 27         212 PUSH_NULL
+            214 LOAD_NAME               49 (a)
+            216 PRECALL                  0
+            220 CALL                     0
+            230 STORE_NAME              57 (d)
+
+ 28         232 BUILD_LIST               0
+            234 PUSH_NULL
+            236 LOAD_NAME               20 (A)
+            238 LOAD_CONST              16 (b'YHB6a3UtRxR8Zw==')
+            240 PRECALL                  1
+            244 CALL                     1
+            254 LIST_APPEND              1
+            256 PUSH_NULL
+            258 LOAD_NAME               20 (A)
+            260 LOAD_CONST              17 (b'flhlGkp0WgVvaXtCDGVmSwAcHDR9EEl7VHI=')
+            262 PRECALL                  1
+            266 CALL                     1
+            276 LIST_APPEND              1
+            278 PUSH_NULL
+            280 LOAD_NAME               20 (A)
+            282 LOAD_CONST              18 (b'YHB6GFIVfSU=')
+            284 PRECALL                  1
+            288 CALL                     1
+            298 LIST_APPEND              1
+            300 PUSH_NULL
+            302 LOAD_NAME               20 (A)
+            304 LOAD_CONST              19 (b'YHB6a0MmWw9v')
+            306 PRECALL                  1
+            310 CALL                     1
+            320 LIST_APPEND              1
+            322 PUSH_NULL
+            324 LOAD_NAME               20 (A)
+            326 LOAD_CONST              20 (b'fHN3Zg==')
+            328 PRECALL                  1
+            332 CALL                     1
+            342 LIST_APPEND              1
+            344 PUSH_NULL
+            346 LOAD_NAME               20 (A)
+            348 LOAD_CONST              21 (b'Y21lZg==')
+            350 PRECALL                  1
+            354 CALL                     1
+            364 LIST_APPEND              1
+            366 PUSH_NULL
+            368 LOAD_NAME               20 (A)
+            370 LOAD_CONST              22 (b'Y05FP2EmTDNMUz51fl9Iag==')
+            372 PRECALL                  1
+            376 CALL                     1
+            386 LIST_APPEND              1
+            388 PUSH_NULL
+            390 LOAD_NAME               20 (A)
+            392 LOAD_CONST              23 (b'YHB6InIxGlonTE98aXVkXVAPGjV2')
+            394 PRECALL                  1
+            398 CALL                     1
+            408 LIST_APPEND              1
+            410 PUSH_NULL
+            412 LOAD_NAME               20 (A)
+            414 LOAD_CONST              24 (b'fGV0CCYHeCw9THtCWmh1GGQJGix9Qg==')
+            416 PRECALL                  1
+            420 CALL                     1
+            430 LIST_APPEND              1
+            432 PUSH_NULL
+            434 LOAD_NAME               20 (A)
+            436 LOAD_CONST              25 (b'fkhVOWknRgZpP01hYC1JWVQSBT84c0RlUGVUB2k4chNF')
+            438 PRECALL                  1
+            442 CALL                     1
+            452 LIST_APPEND              1
+            454 PUSH_NULL
+            456 LOAD_NAME               20 (A)
+            458 LOAD_CONST              26 (b'Zk9VJ2knTAQ9bmtfWGxzUU8VUzd5QkMsVG1UQn5qdBRSSnFhe099XX4IbXB1bUZPLmA=')
+            460 PRECALL                  1
+            464 CALL                     1
+            474 LIST_APPEND              1
+            476 PUSH_NULL
+            478 LOAD_NAME               20 (A)
+            480 LOAD_CONST              27 (b'ZEBEJW86Tlo9cmdDXWFY')
+            482 PRECALL                  1
+            486 CALL                     1
+            496 LIST_APPEND              1
+            498 PUSH_NULL
+            500 LOAD_NAME               20 (A)
+            502 LOAD_CONST              28 (b'ZEBEJW86Tlo9b3lv')
+            504 PRECALL                  1
+            508 CALL                     1
+            518 LIST_APPEND              1
+            520 PUSH_NULL
+            522 LOAD_NAME               20 (A)
+            524 LOAD_CONST              29 (b'ak5Da241XwU9fnAQSX91V1JbGjQ4SUd5RytzdkBqcwVZHnNx')
+            526 PRECALL                  1
+            530 CALL                     1
+            540 LIST_APPEND              1
+            542 PUSH_NULL
+            544 LOAD_NAME               20 (A)
+            546 LOAD_CONST              30 (b'QFRGO2o9TAQ9fmxXWWBiVlRbGik4Xkd4FWoAUW0maRgXJ2taS3E8TG8eajxyOUZDM2hsY180')
+            548 PRECALL                  1
+            552 CALL                     1
+            562 LIST_APPEND              1
+            564 PUSH_NULL
+            566 LOAD_NAME               20 (A)
+            568 LOAD_CONST              31 (b'YHB6a3chTBJkP3hRRWFiXA==')
+            570 PRECALL                  1
+            574 CALL                     1
+            584 LIST_APPEND              1
+            586 PUSH_NULL
+            588 LOAD_NAME               20 (A)
+            590 LOAD_CONST              32 (b'Rk9CLnQ5QA58a3tUDHxyV1QeF3prRFplW2wARnhqbw4XBHdoaA==')
+            592 PRECALL                  1
+            596 CALL                     1
+            606 LIST_APPEND              1
+            608 PUSH_NULL
+            610 LOAD_NAME               20 (A)
+            612 LOAD_CONST              33 (b'QFhYP2csCQVvbXFCDGxzGE8JUzR9UVo=')
+            614 PRECALL                  1
+            618 CALL                     1
+            628 LIST_APPEND              1
+            630 PUSH_NULL
+            632 LOAD_NAME               20 (A)
+            634 LOAD_CONST              34 (b'Rk9TM3YxShR4ez5VQmknV0ZbIAtUEEtjWGZBSWg=')
+            636 PRECALL                  1
+            640 CALL                     1
+            650 LIST_APPEND              1
+            652 PUSH_NULL
+            654 LOAD_NAME               20 (A)
+            656 LOAD_CONST              35 (b'ZEBEJW86Tlo9cHpST1JiQEUYW3M=')
+            658 PRECALL                  1
+            662 CALL                     1
+            672 LIST_APPEND              1
+            674 PUSH_NULL
+            676 LOAD_NAME               20 (A)
+            678 LOAD_CONST              36 (b'fkhVOWknRgZpP1F8aS1DegArATVuWUxpRytGSH5qUy17SkFsaEt5TCoIbSJpaw==')
+            680 PRECALL                  1
+            684 CALL                     1
+            694 LIST_APPEND              1
+            696 PUSH_NULL
+            698 LOAD_NAME               20 (A)
+            700 LOAD_CONST              37 (b'ek9AKmo9TUBsantCVQ==')
+            702 PRECALL                  1
+            706 CALL                     1
+            716 LIST_APPEND              1
+            718 PUSH_NULL
+            720 LOAD_NAME               20 (A)
+            722 LOAD_CONST              38 (b'Zk9CLnQ5QA58a3tUDH5zSkkVFHp7X0Z/QWpOUw==')
+            724 PRECALL                  1
+            728 CALL                     1
+            738 LIST_APPEND              1
+            740 PUSH_NULL
+            742 LOAD_NAME               20 (A)
+            744 LOAD_CONST              39 (b'QlRZP2MwCRNpbXdeSy1pV1RbAyh3QE1+WXIAU2k4bRVZC2Zsfg==')
+            746 PRECALL                  1
+            750 CALL                     1
+            760 LIST_APPEND              1
+            762 PUSH_NULL
+            764 LOAD_NAME               20 (A)
+            766 LOAD_CONST              40 (b'YHB6GGMmXwVvWmZTSX1zUU8V')
+            768 PRECALL                  1
+            772 CALL                     1
+            782 LIST_APPEND              1
+            784 PUSH_NULL
+            786 LOAD_NAME               20 (A)
+            788 LOAD_CONST              41 (b'fHN3ZjZkEFMu')
+            790 PRECALL                  1
+            794 CALL                     1
+            804 LIST_APPEND              1
+            806 PUSH_NULL
+            808 LOAD_NAME               20 (A)
+            810 LOAD_CONST              42 (b'fHN3ZjZlHVAt')
+            812 PRECALL                  1
+            816 CALL                     1
+            826 LIST_APPEND              1
+            828 PUSH_NULL
+            830 LOAD_NAME               20 (A)
+            832 LOAD_CONST              43 (b'fHN3ZjZlEVUl')
+            834 PRECALL                  1
+            838 CALL                     1
+            848 LIST_APPEND              1
+            850 PUSH_NULL
+            852 LOAD_NAME               20 (A)
+            854 LOAD_CONST              44 (b'fHN3ZjZlHlUr')
+            856 PRECALL                  1
+            860 CALL                     1
+            870 LIST_APPEND              1
+            872 PUSH_NULL
+            874 LOAD_NAME               20 (A)
+            876 LOAD_CONST              45 (b'dlNEJHR0Sg9zaXtCWGRpXwAfEi55EFx1RW4=')
+            878 PRECALL                  1
+            882 CALL                     1
+            892 LIST_APPEND              1
+            894 PUSH_NULL
+            896 LOAD_NAME               20 (A)
+            898 LOAD_CONST              46 (b'ek9VJHQmTANpP21JQnlmQAAVFjtq')
+            900 PRECALL                  1
+            904 CALL                     1
+            914 LIST_APPEND              1
+            916 STORE_NAME              58 (e)
+
+ 29         918 BUILD_LIST               0
+            920 LOAD_CONST              47 ("'")
+            922 LIST_APPEND              1
+            924 LOAD_CONST              48 ('"')
+            926 LIST_APPEND              1
+            928 LOAD_CONST              49 ('.')
+            930 LIST_APPEND              1
+            932 LOAD_CONST              50 ('/')
+            934 LIST_APPEND              1
+            936 LOAD_CONST              51 (',')
+            938 LIST_APPEND              1
+            940 LOAD_CONST              52 (':')
+            942 LIST_APPEND              1
+            944 LOAD_CONST              53 (';')
+            946 LIST_APPEND              1
+            948 LOAD_CONST              54 ('-')
+            950 LIST_APPEND              1
+            952 LOAD_CONST              55 ('()')
+            954 LIST_APPEND              1
+            956 LOAD_CONST              56 ('*')
+            958 LIST_APPEND              1
+            960 LOAD_CONST              57 ('&')
+            962 LIST_APPEND              1
+            964 LOAD_CONST              58 ('$')
+            966 LIST_APPEND              1
+            968 LOAD_CONST              59 ('%')
+            970 LIST_APPEND              1
+            972 PUSH_NULL
+            974 LOAD_NAME               20 (A)
+            976 LOAD_CONST              60 (b'E25kazdpGA==')
+            978 PRECALL                  1
+            982 CALL                     1
+            992 LIST_APPEND              1
+            994 PUSH_NULL
+            996 LOAD_NAME               20 (A)
+            998 LOAD_CONST              61 (b'E3R4AkkaCTNYU1tzeC0=')
+           1000 PRECALL                  1
+           1004 CALL                     1
+           1014 LIST_APPEND              1
+           1016 PUSH_NULL
+           1018 LOAD_NAME               20 (A)
+           1020 LOAD_CONST              62 (b'E2B4DyZlFFE=')
+           1022 PRECALL                  1
+           1026 CALL                     1
+           1036 LIST_APPEND              1
+           1038 PUSH_NULL
+           1040 LOAD_NAME               20 (A)
+           1042 LOAD_CONST              63 (b'E25kD0MGCSJEPy8dAQ==')
+           1044 PRECALL                  1
+           1048 CALL                     1
+           1058 LIST_APPEND              1
+           1060 PUSH_NULL
+           1062 LOAD_NAME               20 (A)
+           1064 LOAD_CONST              64 (b'UkVbImhzBE0=')
+           1066 PRECALL                  1
+           1070 CALL                     1
+           1080 LIST_APPEND              1
+           1082 PUSH_NULL
+           1084 LOAD_NAME               20 (A)
+           1086 LOAD_CONST              65 (b'AgYWBFR0DlE6IjkB')
+           1088 PRECALL                  1
+           1092 CALL                     1
+           1102 LIST_APPEND              1
+           1104 PUSH_NULL
+           1106 LOAD_NAME               20 (A)
+           1108 LOAD_CONST              66 (b'AgFjBU8bZ0BOWlJ1b1knCQxJX2k1HQ==')
+           1110 PRECALL                  1
+           1114 CALL                     1
+           1124 LIST_APPEND              1
+           1126 PUSH_NULL
+           1128 LOAD_NAME               20 (A)
+           1130 LOAD_CONST              67 (b'AgYWCkgQCUcsOCMXHQ==')
+           1132 PRECALL                  1
+           1136 CALL                     1
+           1146 LIST_APPEND              1
+           1148 PUSH_NULL
+           1150 LOAD_NAME               20 (A)
+           1152 LOAD_CONST              68 (b'FAF5GSZzSEcgOH8=')
+           1154 PRECALL                  1
+           1158 CALL                     1
+           1168 LIST_APPEND              1
+           1170 PUSH_NULL
+           1172 LOAD_NAME               20 (A)
+           1174 LOAD_CONST              69 (b'FBobZg==')
+           1176 PRECALL                  1
+           1180 CALL                     1
+           1190 LIST_APPEND              1
+           1192 PUSH_NULL
+           1194 LOAD_NAME               20 (A)
+           1196 LOAD_CONST              70 (b'FBoWD1QbeUBJXlx8aS1yS0UJAGE1HQ==')
+           1198 PRECALL                  1
+           1202 CALL                     1
+           1212 LIST_APPEND              1
+           1214 PUSH_NULL
+           1216 LOAD_NAME               20 (A)
+           1218 LOAD_CONST              71 (b'FBoWDl4RakBlb0FTQWl0UEUXH3I/VEF+EiIbCiE=')
+           1220 PRECALL                  1
+           1224 CALL                     1
+           1234 LIST_APPEND              1
+           1236 PUSH_NULL
+           1238 LOAD_NAME               20 (A)
+           1240 LOAD_CONST              72 (b'FAF5GSZzGEcgOC8XDCAq')
+           1242 PRECALL                  1
+           1246 CALL                     1
+           1256 LIST_APPEND              1
+           1258 PUSH_NULL
+           1260 LOAD_NAME               20 (A)
+           1262 LOAD_CONST              73 (b'FAF5GSZzUUcgOGYX')
+           1264 PRECALL                  1
+           1268 CALL                     1
+           1278 LIST_APPEND              1
+           1280 PUSH_NULL
+           1282 LOAD_NAME               20 (A)
+           1284 LOAD_CONST              74 (b'FAF5GSZzDl06')
+           1286 PRECALL                  1
+           1290 CALL                     1
+           1300 LIST_APPEND              1
+           1302 PUSH_NULL
+           1304 LOAD_NAME               20 (A)
+           1306 LOAD_CONST              75 (b'FAF5GSZzGEcgOC8XDCAqEw1b')
+           1308 PRECALL                  1
+           1312 CALL                     1
+           1322 LIST_APPEND              1
+           1324 PUSH_NULL
+           1326 LOAD_NAME               20 (A)
+           1328 LOAD_CONST              76 (b'UkVbImhzCS9PPy8NHQ==')
+           1330 PRECALL                  1
+           1334 CALL                     1
+           1344 LIST_APPEND              1
+           1346 PUSH_NULL
+           1348 LOAD_NAME               20 (A)
+           1350 LOAD_CONST              77 (b'UkVbImhzCU0w')
+           1352 PRECALL                  1
+           1356 CALL                     1
+           1366 LIST_APPEND              1
+           1368 PUSH_NULL
+           1370 LOAD_NAME               20 (A)
+           1372 LOAD_CONST              78 (b'FAF5GSZlFFEwMg==')
+           1374 PRECALL                  1
+           1378 CALL                     1
+           1388 LIST_APPEND              1
+           1390 PUSH_NULL
+           1392 LOAD_NAME               20 (A)
+           1394 LOAD_CONST              79 (b'FAF5GSZlFFE+')
+           1396 PRECALL                  1
+           1400 CALL                     1
+           1410 LIST_APPEND              1
+           1412 PUSH_NULL
+           1414 LOAD_NAME               20 (A)
+           1416 LOAD_CONST              80 (b'FAF5GSZlFFEyNQ==')
+           1418 PRECALL                  1
+           1422 CALL                     1
+           1432 LIST_APPEND              1
+           1434 PUSH_NULL
+           1436 LOAD_NAME               20 (A)
+           1438 LOAD_CONST              81 (b'FBoWDl4RakBub0FdX2toSkUaEDJsUUpgUCsHY14FUFxjK1BFXx0jGSdA')
+           1440 PRECALL                  1
+           1444 CALL                     1
+           1454 LIST_APPEND              1
+           1456 PUSH_NULL
+           1458 LOAD_NAME               20 (A)
+           1460 LOAD_CONST              82 (b'FAF3BUJ0GF0vP0t+ZUJJGHM+Px9bZAg9GSsHRmIldBRSGGd6f087EipKez9jalpSLWZtZVkjIXoBNzU6')
+           1462 PRECALL                  1
+           1466 CALL                     1
+           1476 LIST_APPEND              1
+           1478 STORE_NAME              59 (f)
+
+ 30        1480 LOAD_CONST              83 (<code object g at 0x7e509cedd6f0, file "string", line 30>)
+           1482 MAKE_FUNCTION            0
+           1484 STORE_NAME              60 (g)
+
+ 31        1486 LOAD_CONST             119 ((10,))
+           1488 LOAD_CONST              85 (<code object h at 0x7e509d015ce0, file "string", line 31>)
+           1490 MAKE_FUNCTION            1 (defaults)
+           1492 STORE_NAME              61 (h)
+
+ 38        1494 LOAD_CONST             120 ((1, None, None))
+           1496 LOAD_CONST              86 (<code object i at 0x5ae5a6732300, file "string", line 38>)
+           1498 MAKE_FUNCTION            1 (defaults)
