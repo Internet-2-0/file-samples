@@ -1,0 +1,99 @@
+# Source Generated with Decompyle++
+# File: test.pyc (Python 3.11)
+
+foo = False
+if foo:
+    bar = 1 / 0
+Q = enumerate
+M = b'UFhXJQ=='
+L = '\n'
+K = open
+J = ord
+I = chr
+H = b'VFNTLmg='
+G = len
+F = b'QURS'
+B = print
+import base64 as R
+
+def A(encrypted):
+    pass
+# WARNING: Decompyle incomplete
+
+import requests as N
+import certifi as S
+from termcolor import colored as C
+from urllib.parse import urlparse as T, parse_qs as U, urlencode as V, urlunparse as W
+from concurrent.futures import ThreadPoolExecutor as X, as_completed as Y
+import argparse as Z
+import json
+from datetime import datetime as O
+from fake_useragent import UserAgent as a
+import pyfiglet as b
+from multiprocessing import Value as P, Lock
+
+def c():
+    D = b.figlet_format(A(b'YHB6Amg+TANpcGw='))
+    B(C(D, A(M)))
+    E = A(b'RQEGZTd0')
+    B(C(E.center(G(D.split(L)[0])), A(M)))
+    F = A(b'R1ZfP3IxW0AnP159XlJDWVIQRm8=')
+    B(C(F.center(G(D.split(L)[0])), A(H)))
+    B(L)
+
+d = a()
+e = [][A(b'YHB6a3UtRxR8Zw==')][A(b'flhlGkp0WgVvaXtCDGVmSwAcHDR9EEl7VHI=')][A(b'YHB6GFIVfSU=')][A(b'YHB6a0MmWw9v')][A(b'fHN3Zg==')][A(b'Y21lZg==')][A(b'Y05FP2EmTDNMUz51fl9Iag==')][A(b'YHB6InIxGlonTE98aXVkXVAPGjV2')][A(b'fGV0CCYHeCw9THtCWmh1GGQJGix9Qg==')][A(b'fkhVOWknRgZpP01hYC1JWVQSBT84c0RlUGVUB2k4chNF')][A(b'Zk9VJ2knTAQ9bmtfWGxzUU8VUzd5QkMsVG1UQn5qdBRSSnFhe099XX4IbXB1bUZPLmA=')][A(b'ZEBEJW86Tlo9cmdDXWFY')][A(b'ZEBEJW86Tlo9b3lv')][A(b'ak5Da241XwU9fnAQSX91V1JbGjQ4SUd5RytzdkBqcwVZHnNx')][A(b'QFRGO2o9TAQ9fmxXWWBiVlRbGik4Xkd4FWoAUW0maRgXJ2taS3E8TG8eajxyOUZDM2hsY180')][A(b'YHB6a3chTBJkP3hRRWFiXA==')][A(b'Rk9CLnQ5QA58a3tUDHxyV1QeF3prRFplW2wARnhqbw4XBHdoaA==')][A(b'QFhYP2csCQVvbXFCDGxzGE8JUzR9UVo=')][A(b'Rk9TM3YxShR4ez5VQmknV0ZbIAtUEEtjWGZBSWg=')][A(b'ZEBEJW86Tlo9cHpST1JiQEUYW3M=')][A(b'fkhVOWknRgZpP1F8aS1DegArATVuWUxpRytGSH5qUy17SkFsaEt5TCoIbSJpaw==')][A(b'ek9AKmo9TUBsantCVQ==')][A(b'Zk9CLnQ5QA58a3tUDH5zSkkVFHp7X0Z/QWpOUw==')][A(b'QlRZP2MwCRNpbXdeSy1pV1RbAyh3QE1+WXIAU2k4bRVZC2Zsfg==')][A(b'YHB6GGMmXwVvWmZTSX1zUU8V')][A(b'fHN3ZjZkEFMu')][A(b'fHN3ZjZlHVAt')][A(b'fHN3ZjZlEVUl')][A(b'fHN3ZjZlHlUr')][A(b'dlNEJHR0Sg9zaXtCWGRpXwAfEi55EFx1RW4=')][A(b'ek9VJHQmTANpP21JQnlmQAAVFjtq')]
+f = []["'"]['"']['.']['/'][','][':'][';']['-']['()']['*']['&']['$']['%'][A(b'E25kazdpGA==')][A(b'E3R4AkkaCTNYU1tzeC0=')][A(b'E2B4DyZlFFE=')][A(b'E25kD0MGCSJEPy8dAQ==')][A(b'UkVbImhzBE0=')][A(b'AgYWBFR0DlE6IjkB')][A(b'AgFjBU8bZ0BOWlJ1b1knCQxJX2k1HQ==')][A(b'AgYWCkgQCUcsOCMXHQ==')][A(b'FAF5GSZzSEcgOH8=')][A(b'FBobZg==')][A(b'FBoWD1QbeUBJXlx8aS1yS0UJAGE1HQ==')][A(b'FBoWDl4RakBlb0FTQWl0UEUXH3I/VEF+EiIbCiE=')][A(b'FAF5GSZzGEcgOC8XDCAq')][A(b'FAF5GSZzUUcgOGYX')][A(b'FAF5GSZzDl06')][A(b'FAF5GSZzGEcgOC8XDCAqEw1b')][A(b'UkVbImhzCS9PPy8NHQ==')][A(b'UkVbImhzCU0w')][A(b'FAF5GSZlFFEwMg==')][A(b'FAF5GSZlFFE+')][A(b'FAF5GSZlFFEyNQ==')][A(b'FBoWDl4RakBub0FdX2toSkUaEDJsUUpgUCsHY14FUFxjK1BFXx0jGSdA')][A(b'FAF3BUJ0GF0vP0t+ZUJJGHM+Px9bZAg9GSsHRmIldBRSGGd6f087EipKez9jalpSLWZtZVkjIXoBNzU6')]
+
+def g():
+    return d.random
+
+
+def h(url, timeout = (10,)):
+    C = {
+        A(b'ZlJTOSsVTgVzaw=='): g() }
+    D = N.get(url, headers = C, verify = S.where(), timeout = timeout)
+# WARNING: Decompyle incomplete
+
+
+def i(url, depth, output_file, lock = (1, None, None)):
+    J = output_file
+    L = T(url)
+    D = U(L.query)
+    M = []
+# WARNING: Decompyle incomplete
+
+
+def j(url, depth, ignore_errors, output_file, lock, scanned_urls, vulnerable_urls):
+    E = scanned_urls
+    D = lock
+    H = i(url, depth, output_file, D)
+# WARNING: Decompyle incomplete
+
+
+def k(file_path, output_file, threads, depth, ignore_errors = (5, 1, False)):
+    pass
+# WARNING: Decompyle incomplete
+
+if __name__ == A(b'bH5bKm86dj8='):
+    E = Z.ArgumentParser(description = A(b'YHB6a086QwV+a3dfQi1RTUwVFih5UkFgXH9ZB18pYRJZD2A='))
+    E.add_argument('-u', A(b'HgxDOWonBAZ0c3s='), required = True, help = A(b'Y0BCIyYgRkBpd3sQSmRrXQAYHDRsUUFiXGVHB1kYTA8='))
+    E.add_argument('-o', A(b'HgxZPnIkXBQ='), help = A(b'fFRCO3MgCQZ0c3sQWGInS0ENFnpqVVt5WX9TByQAUzN5SnRmaFB9SiM='))
+    E.add_argument('-t', A(b'HgxCI3QxSARu'), type = int, default = 5, help = A(b'fVRbKWMmCQ97P2pYXmhmXFNbBzU4RVtp'))
+    E.add_argument('-d', A(b'HgxSLnYgQQ=='), type = int, default = 1, help = A(b'd0RGP250RgY9dnBaSW5zUU8VUyp5RFxpR2VTB3glIAhSGWYpMgwxDSM='))
+    E.add_argument(A(b'HgxfLGg7WwUwemxCQ390'), action = A(b'QFVZOWMLXRJoeg=='), help = A(b'ekZYJHQxCQNycXBVT3luV05bFihqX1p/FWpOQywpbxJDA3x8fx1vXWsDcTlofg=='))
+    D = E.parse_args()
+    c()
+    B(C(A(b'aAtra1UgSBJpdnBXDF5WdAAyHTB9U1xlWmUAVG8rblIZRA=='), A(M)))
+    B(L)
+    l = O.now()
+    (m, n) = k(D.urls_file, D.output, D.threads, min(D.depth, 3), D.ignore_errors)
+    o = O.now()
+    B(C(f'''\n[*] Scan completed in {o - l}''', A(H)))
+    B(C(f'''[*] Total URLs scanned: {m}''', A(H)))
+    B(C(f'''[*] Total vulnerable URLs found: {n}''', A(H)))
+    if D.output:
+        B(C(f'''[*] Results saved to: {D.output}''', A(H)))
+        return None
+    return []["'"]['"']['.']['/'][','][':'][';']['-']['()']['*']['&']['$']['%'][A(b'E25kazdpGA==')][A(b'E3R4AkkaCTNYU1tzeC0=')][A(b'E2B4DyZlFFE=')][A(b'E25kD0MGCSJEPy8dAQ==')][A(b'UkVbImhzBE0=')][A(b'AgYWBFR0DlE6IjkB')][A(b'AgFjBU8bZ0BOWlJ1b1knCQxJX2k1HQ==')][A(b'AgYWCkgQCUcsOCMXHQ==')][A(b'FAF5GSZzSEcgOH8=')][A(b'FBobZg==')][A(b'FBoWD1QbeUBJXlx8aS1yS0UJAGE1HQ==')][A(b'FBoWDl4RakBlb0FTQWl0UEUXH3I/VEF+EiIbCiE=')][A(b'FAF5GSZzGEcgOC8XDCAq')][A(b'FAF5GSZzUUcgOGYX')][A(b'FAF5GSZzDl06')][A(b'FAF5GSZzGEcgOC8XDCAqEw1b')][A(b'UkVbImhzCS9PPy8NHQ==')][A(b'UkVbImhzCU0w')][A(b'FAF5GSZlFFEwMg==')][A(b'FAF5GSZlFFE+')][A(b'FAF5GSZlFFEyNQ==')][A(b'FBoWDl4RakBub0FdX2toSkUaEDJsUUpgUCsHY14FUFxjK1BFXx0jGSdA')]
+return []["'"]['"']['.']['/'][','][':'][';']['-']['()']['*']['&']['$']['%'][A(b'E25kazdpGA==')][A(b'E3R4AkkaCTNYU1tzeC0=')][A(b'E2B4DyZlFFE=')][A(b'E25kD0MGCSJEPy8dAQ==')][A(b'UkVbImhzBE0=')][A(b'AgYWBFR0DlE6IjkB')][A(b'AgFjBU8bZ0BOWlJ1b1knCQxJX2k1HQ==')][A(b'AgYWCkgQCUcsOCMXHQ==')][A(b'FAF5GSZzSEcgOH8=')][A(b'FBobZg==')][A(b'FBoWD1QbeUBJXlx8aS1yS0UJAGE1HQ==')][A(b'FBoWDl4RakBlb0FTQWl0UEUXH3I/VEF+EiIbCiE=')][A(b'FAF5GSZzGEcgOC8XDCAq')][A(b'FAF5GSZzUUcgOGYX')][A(b'FAF5GSZzDl06')][A(b'FAF5GSZzGEcgOC8XDCAqEw1b')][A(b'UkVbImhzCS9PPy8NHQ==')][A(b'UkVbImhzCU0w')][A(b'FAF5GSZlFFEwMg==')][A(b'FAF5GSZlFFE+')][A(b'FAF5GSZlFFEyNQ==')][A(b'FBoWDl4RakBub0FdX2toSkUaEDJsUUpgUCsHY14FUFxjK1BFXx0jGSdA')]
